@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "For Big Data Architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@awaitjs/express": "^0.7.2",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.9.3",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "franc": "^5.0.0",
+    "mocha": "^8.3.0",
+    "mongodb": "^3.6.4",
+    "nba": "^4.15.0",
+    "node-notifier": "^9.0.1",
+    "nodemon": "^2.0.7",
+    "open": "^8.0.6",
+    "pg": "^8.6.0",
+    "react-twitter-embed": "^3.0.3",
+    "snoowrap": "^1.22.0",
+    "twit": "^2.2.11",
+    "twitter-stream-api": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.3"
+  }
+}
