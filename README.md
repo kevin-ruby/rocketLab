@@ -5,7 +5,7 @@
 1. After cloning the repository, open two sepereate terminal windows.
 2. `cd front_end` in one terminal window and `cd back_end` in the other.
 3. Use `npm install` to install all the dependencies needed. (For both front and backend)
-4. Run `npm start` to run project locally. (For both front and backend)
+4. Run `npm start` to run project locally. Start the backend first.
 
 ---
 
