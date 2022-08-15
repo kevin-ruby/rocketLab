@@ -11,6 +11,8 @@ import Dropdown from "react-dropdown";
 import { ThemeProvider } from "styled-components";
 
 class Timer extends React.Component {
+  // How would you turn this timer into a refreshing timer.  i.e. after the time expires, refresh the page
+  // It should show that something had changed in the data without mucking with the backend.
   constructor(props) {
     super(props);
     this.state = { seconds: 0 };
@@ -49,6 +51,8 @@ class App extends Component {
       dataList: null,
     };
   }
+
+  // How would you add a method as part of this component to add data to the data set?
 
   // Select a Satellite
   updateDashboard = async (event) => {
@@ -97,6 +101,7 @@ class App extends Component {
         </header>
       );
     } else {
+      // A bunch of HTML in the JS can make it wordy and a bit hard to follow.  Would it be better to reference this code?
       imgOrTable = (
         <Container className="row" style={{ minHeight: "450px" }}>
           {/* Every single row will wrap when column is larger than 12s*/}
@@ -111,6 +116,7 @@ class App extends Component {
                     class=""
                   />
                   <Timer></Timer>
+                  <!-- Instead of making the user refresh by resetting, why not simply add a refresh button? -->
                   <hr color="black" />
                   Here at RocketLab, we take every step to ensure data is fresh.
                   Please note the timer above and refresh data as necessary
