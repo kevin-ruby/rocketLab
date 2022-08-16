@@ -37,6 +37,14 @@
   font-family: "basefont-medium";
 }
 
+.btn-outline-primary,
+.btn-outline-primary:hover {
+  color: rgb(128, 145, 171) !important;
+  background-color: transparent;
+  background-image: none;
+  border-color: rgb(128, 145, 171) !important;
+}
+
 .font-bold {
   font-family: "basefont-bold";
 }
